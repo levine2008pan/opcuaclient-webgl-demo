@@ -1,0 +1,126 @@
+{
+  "Version": "1.1.0",
+  "Points": [
+    {
+      "DeviceId": "carriage.0",
+      "Tag": "carriage.0.progress",
+      "NodeId": "ns=6;s=::AsGlobalPV:gShuttleMon.Shuttle[0].TrackProgress",
+      "DataType": "Float",
+      "Semantic": "CarriageProgress",
+      "Scale": 1.0,
+      "Offset": 0.0,
+      "Unit": "ratio",
+      "Deadband": 0.0005
+    },
+    {
+      "DeviceId": "carriage.0",
+      "Tag": "carriage.0.speed",
+      "NodeId": "ns=6;s=::AsGlobalPV:gShuttleMon.Shuttle[0].Speed",
+      "DataType": "Float",
+      "Semantic": "CarriageSpeed",
+      "Scale": 1.0,
+      "Offset": 0.0,
+      "Unit": "units/s",
+      "Deadband": 0.0
+    },
+    {
+      "DeviceId": "station.0",
+      "Tag": "station.0.state",
+      "NodeId": "ns=6;s=::AsGlobalPV:gStationMon.Station[0].State",
+      "DataType": "Int32",
+      "Semantic": "StationState",
+      "Scale": 1.0,
+      "Offset": 0.0,
+      "Unit": "",
+      "Deadband": 0.0
+    },
+    {
+      "DeviceId": "temp_humidity",
+      "Tag": "device.0.value",
+      "NodeId": "ns=6;s=::AsGlobalPV:DemoDevice[0].Temperature",
+      "DataType": "Float",
+      "Semantic": "DemoDevice",
+      "Scale": 22.0,
+      "Offset": 12.0,
+      "Unit": "°C",
+      "Deadband": 0.05
+    },
+    {
+      "DeviceId": "temp_humidity",
+      "Tag": "device.0.aux",
+      "NodeId": "ns=6;s=::AsGlobalPV:DemoDevice[0].Humidity",
+      "DataType": "Float",
+      "Semantic": "DemoDevice",
+      "Scale": 25.0,
+      "Offset": 40.0,
+      "Unit": "%",
+      "Deadband": 0.05
+    },
+    {
+      "DeviceId": "power_meter",
+      "Tag": "device.1.value",
+      "NodeId": "ns=6;s=::AsGlobalPV:DemoDevice[1].Energy",
+      "DataType": "Float",
+      "Semantic": "DemoDevice",
+      "Scale": 8.0,
+      "Offset": 8.6,
+      "Unit": "kW",
+      "Deadband": 0.02
+    },
+    {
+      "DeviceId": "power_meter",
+      "Tag": "device.1.aux",
+      "NodeId": "ns=6;s=::AsGlobalPV:DemoDevice[1].Voltage",
+      "DataType": "Float",
+      "Semantic": "DemoDevice",
+      "Scale": 15.0,
+      "Offset": 213.0,
+      "Unit": "V",
+      "Deadband": 0.05
+    },
+    {
+      "DeviceId": "compressor",
+      "Tag": "device.2.value",
+      "NodeId": "ns=6;s=::AsGlobalPV:DemoDevice[2].Pressure",
+      "DataType": "Float",
+      "Semantic": "DemoDevice",
+      "Scale": 0.5,
+      "Offset": 0.47,
+      "Unit": "MPa",
+      "Deadband": 0.002
+    },
+    {
+      "DeviceId": "compressor",
+      "Tag": "device.2.aux",
+      "NodeId": "ns=6;s=::AsGlobalPV:DemoDevice[2].Speed",
+      "DataType": "Float",
+      "Semantic": "DemoDevice",
+      "Scale": 600.0,
+      "Offset": 1150.0,
+      "Unit": "RPM",
+      "Deadband": 1.0
+    },
+    {
+      "DeviceId": "chiller",
+      "Tag": "device.3.value",
+      "NodeId": "ns=6;s=::AsGlobalPV:DemoDevice[3].SupplyTemp",
+      "DataType": "Float",
+      "Semantic": "DemoDevice",
+      "Scale": 6.0,
+      "Offset": 4.2,
+      "Unit": "°C",
+      "Deadband": 0.02
+    },
+    {
+      "DeviceId": "chiller",
+      "Tag": "device.3.aux",
+      "NodeId": "ns=6;s=::AsGlobalPV:DemoDevice[3].ReturnTemp",
+      "DataType": "Float",
+      "Semantic": "DemoDevice",
+      "Scale": 5.0,
+      "Offset": 9.9,
+      "Unit": "°C",
+      "Deadband": 0.02
+    }
+  ]
+}

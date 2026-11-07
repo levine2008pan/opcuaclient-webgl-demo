@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "badge": {
+    "liveText": "实时链路 · 仿真源",
+    "fallbackText": "离线演示 · 仿真数据"
+  },
+  "brand": {
+    "accent": "00D9FF",
+    "alarm": "FF3355"
+  },
+  "devices": [
+    { "id": "temp_humidity", "name": "Temp & Humidity Sensor", "unit": "°C", "auxUnit": "%", "alarmGameObject": "TempHumidityModel" },
+    { "id": "power_meter", "name": "Smart Power Meter", "unit": "kW", "auxUnit": "V", "alarmGameObject": "SmartMeter" },
+    { "id": "compressor", "name": "Air Compressor", "unit": "MPa", "auxUnit": "RPM", "alarmGameObject": "air_compressor" },
+    { "id": "chiller", "name": "Chiller", "unit": "°C", "auxUnit": "°C", "alarmGameObject": "ChillerModel" }
+  ],
+  "alarmDeviceId": "*",
+  "chapters": [
+    { "deviceId": "temp_humidity", "caption": "Chapter 1 · 接入 Modbus → OPC UA 网关 · 温湿度传感器" },
+    { "deviceId": "power_meter", "caption": "Chapter 2 · 数字滚动 · 脉冲指示灯" },
+    { "deviceId": "compressor", "caption": "Chapter 3 · 机械运动 · 风扇 + 压力表指针" },
+    { "deviceId": "chiller", "caption": "Chapter 4 · 双压力表 · 红绿状态灯" }
+  ],
+  "endPanel": {
+    "contactMail": "sales@r2corenex.com",
+    "siteUrl": "https://r2corenex.com"
+  }
+}
